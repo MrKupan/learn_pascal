@@ -13,6 +13,6 @@ begin
     a := b;
     b := c;
 
-    writeln('a = ', a);
-    writeln('b = ', b);
+    writeln('a = ', a:0:3);
+    writeln('b = ', b:0:3);
 end.
